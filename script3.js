@@ -2,6 +2,7 @@ const redRange = document.getElementById('redRange');
 const greenRange = document.getElementById('greenRange');
 const blueRange = document.getElementById('blueRange');
 
+
 const redInput = document.getElementById('redInput');
 const greenInput = document.getElementById('greenInput');
 const blueInput = document.getElementById('blueInput');
