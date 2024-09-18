@@ -1,0 +1,44 @@
+body {
+    background-color: #1E1E1E; /* Aquí puedes poner el color que prefieras */
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: #E0B973;
+    font-weight: 700;
+}
+
+p {
+    color: #1E1E1E; /* Verde */
+}
+
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+#colorBox {
+    height: 150px;
+    background-color: #000000;
+    border-radius: 10px;
+    border: 2px solid #dee2e6;
+}
+
+label {
+    font-weight: 600;
+    color: #495057;
+}
+
+.form-control-color {
+    width: 100px;
+    height: 50px;
+    padding: 0;
+    border: none;
+}
+
+input[type="range"] {
+    accent-color: #0d6efd;
+}

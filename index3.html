@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador RGB P27</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card shadow-lg p-4">
+            <h1 class="text-center mb-4">Generador de Colores RGB</h1>
+            <div class="row my-4">
+                <div class="col-md-6 offset-md-3 text-center">
+                    <input type="color" id="colorPicker" class="form-control form-control-color mb-3" value="#000000">
+                </div>
+            </div>
+            <div class="row my-4">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="redRange">Rojo</label>
+                        <input type="range" class="form-range" id="redRange" min="0" max="255" value="0">
+                        <input type="number" class="form-control mt-2" id="redInput" min="0" max="255" value="0">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="greenRange">Verde</label>
+                        <input type="range" class="form-range" id="greenRange" min="0" max="255" value="0">
+                        <input type="number" class="form-control mt-2" id="greenInput" min="0" max="255" value="0">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="blueRange">Azul</label>
+                        <input type="range" class="form-range" id="blueRange" min="0" max="255" value="0">
+                        <input type="number" class="form-control mt-2" id="blueInput" min="0" max="255" value="0">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 offset-md-3 text-center">
+                    <div id="colorBox" class="border p-5 mb-3 rounded"></div>
+                    <p id="hexCode" class="fs-4 fw-bold"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script3.js"></script>
+</body>
+</html>
